@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div>
+        <canvas style="max-width: 100%; max-height:600px;" id="target"></canvas>
+    </div>
+    <table style="padding: 5px;">
+        <tbody>
+            <tr>
+                <td class="left">
+                    <div class="left">
+                        <div>
+                            <label for="buyer_price">Buyer pays:</label>
+                            <input id="buyer_price" type="number" onkeyup="script.update('buyer');" />
+                        </div>
+                        <div>
+                            <label for="seller_gain">You receive:</label>
+                            <input id="seller_gain" type="number" onkeyup="script.update('seller');" />
+                        </div>
+                        <div>
+                            <label for="fees">Fees:</label>
+                            <span id="fees"></span>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="right">
+                        <canvas id="visualizer"></canvas>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

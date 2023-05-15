@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color:black;
+  }
+  
+  div {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    border-left: 5px solid #3498db;
+    border-right: 5px solid #3498db;
+  }
+  
+  canvas {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  td {
+    vertical-align: top;
+  }
+  
+  .left {
+    margin-right: 20px;
+  }
+  
+  input[type="number"] {
+    width: 80px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  #fees {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .right canvas {
+    border: 1px solid #ccc;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .left {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  
